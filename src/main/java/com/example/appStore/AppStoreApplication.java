@@ -18,7 +18,7 @@ public class AppStoreApplication {
 
 	@PostConstruct
 	void init() {
-		TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
+		TimeZone.setDefault(TimeZone.getTimeZone("UTC+7"));
 	}
 
 	public static void main(String[] args) {
